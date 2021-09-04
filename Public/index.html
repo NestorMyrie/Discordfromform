@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/37d9b1ae40.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+   
+
+    <div class="fip" id="fip">
+      <div class="alert" id="alert">
+        <i class="fas fa-times closeAlert"></i>
+        <h4>Rellena todos los inputs</h4>
+      </div>
+      <section>
+        <h1>Discord Form</h1>
+        <form action="POST">
+          <p>
+            <label for="Name">Nombre completo</label>
+            <input type="text" id="Name" />
+          </p>
+
+          <p>
+            <label for="Number">Numero </label>
+            <input type="text" id="Number" />
+          </p>
+
+          <p>
+            <label for="Message">Mensaje </label>
+            <textarea id="Message"></textarea>
+          </p>
+
+          <button id="send">Enviar</button>
+        </form>
+      </section>
+      <div class="backface">
+        <svg
+          version="1.1"
+          id="Capa_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 344.963 344.963"
+          style="enable-background: new 0 0 344.963 344.963"
+          xml:space="preserve"
+        >
+          <g>
+            <path
+              id="success"
+              d="M321.847,86.242l-40.026-23.11l-23.104-40.02h-46.213l-40.026-23.11l-40.026,23.11H86.239
+          l-23.11,40.026L23.11,86.242v46.213L0,172.481l23.11,40.026v46.213l40.026,23.11l23.11,40.026h46.213l40.02,23.104l40.026-23.11
+          h46.213l23.11-40.026l40.026-23.11v-46.213l23.11-40.026l-23.11-40.026V86.242H321.847z M156.911,243.075
+          c-3.216,3.216-7.453,4.779-11.671,4.72c-4.219,0.06-8.455-1.504-11.671-4.72l-50.444-50.444c-6.319-6.319-6.319-16.57,0-22.889
+          l13.354-13.354c6.319-6.319,16.57-6.319,22.889,0l25.872,25.872l80.344-80.35c6.319-6.319,16.57-6.319,22.889,0l13.354,13.354
+          c6.319,6.319,6.319,16.57,0,22.889L156.911,243.075z"
+            />
+          </g>
+          <p>Formulario enviado con exito</p>
+          <p>Pronto te contactaremos ;)</p>
+        </svg>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
